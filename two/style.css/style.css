@@ -1,0 +1,116 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgba(61, 12, 100, 0.942);
+    font-family: 'Times New Roman', Times, serif;
+}
+.Containar{
+    margin: 5px 34px;
+    padding: 8px;
+}
+.header_nav{
+    display: flex;
+    justify-content: space-between;
+
+    /* logos and YOUTUBE Menues */
+    align-items: center;
+}
+.ProfileLogo{
+    width: 100px;
+    height: 100px;
+}
+b:hover{
+    color: rgb(47, 185, 26);
+    font-style: italic;
+    text-decoration: underline;
+}
+.div_nav{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+a{
+    color: rgb(210, 198, 130);
+    text-decoration: none;
+    font-size: 20px;
+}
+/* header section closed */
+
+/* Main Section */
+/* Section 1 */
+ 
+.Section1{
+    display: flex;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    justify-content: space-between;
+    align-items: center;
+}
+.section1_text{
+    width: 700px;
+}
+.section1_image{
+    width: 700px;
+}
+h1{
+    color: rgb(29, 229, 229);
+    font-size: 30px;
+    font-style: italic;
+}
+
+/* Section2 */
+h3{
+    color: rgb(210, 218, 57);
+    font-style: italic;
+   font-weight: 300;
+   margin-top: 10px;
+   text-align: center;
+}
+.Section2{
+    display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding-top: 60px;
+   padding-bottom: 60px;
+}
+
+/* Section 3 */
+.Section3{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    align-items: center;
+}
+.Section3_image{
+    width: 700px;
+}
+.Section3_text{
+    width: 700px;
+}
+
+/* Section 4 */
+.Section4{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    align-items: center;
+}
+.Section4_text{
+    width: 700px;
+}
+.Section4_image{
+    width: 700px;
+}
+/* Footer */
+.footer p{
+    color: rgb(47, 230, 77);
+    text-align: center;
+    font-size: 30px;
+    background-color: rgb(7, 30, 31);
+
+}
